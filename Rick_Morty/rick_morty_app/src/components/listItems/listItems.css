@@ -1,0 +1,21 @@
+
+
+#btn-list {
+    list-style: none;
+    display: flex;
+    background-color: #344D67;
+    justify-content: center;
+    align-items: center;
+    color: #6ECCAF;
+    height: 55px;
+    width: 120px;
+    margin-right: -20px;
+    padding: 0px;
+    box-sizing: border-box;
+       
+}
+
+#btn-list:hover {
+    background-color: #6ECCAF;
+    color:#344D67
+}

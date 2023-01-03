@@ -8,6 +8,9 @@ body {
   background-image: url(../public/images/rickymorty.jpeg);
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
