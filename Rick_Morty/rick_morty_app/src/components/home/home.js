@@ -13,8 +13,8 @@ export default function Home (){
             
                 <nav>
                     <ul>   
-                        <ListItems dato={"Contact"}/>
-                        <ListItems dato={"Characters"} />
+                        <ListItems dato={"Characters"}/>
+                        <ListItems dato={"Contact"} />
                     </ul>
                 </nav>    
                 
