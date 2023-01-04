@@ -1,0 +1,30 @@
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#filters{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+   
+}
+
+
+
+h2 {
+    display: flex;
+    justify-content: left;
+}
+
+#filters-section {
+    width: 83vw;
+    margin-top: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #6ECCAF;
+}
+

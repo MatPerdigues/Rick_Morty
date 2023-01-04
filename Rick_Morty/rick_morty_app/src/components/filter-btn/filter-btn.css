@@ -1,0 +1,20 @@
+#filter-btn{
+    margin-right: 20px;
+    color: #6ECCAF;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 20px;
+   
+}
+
+#filter-div{
+    display: flex;
+    align-items: center;
+    background-color: #344d67;
+    border: none;
+    height: 40px;
+   
+    
+    
+}
+
+

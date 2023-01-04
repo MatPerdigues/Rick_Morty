@@ -1,11 +1,11 @@
 import './App.css';
-import Contact from './components/contact/contact';
+import Characters from './components/characters/characters';
 
 
 function App() {
   return (
     <div className="App">
-      <Contact/>
+      <Characters/>
     </div>
   );
 }
