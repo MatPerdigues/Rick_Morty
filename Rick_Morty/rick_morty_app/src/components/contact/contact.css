@@ -1,4 +1,106 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
 #div-form{
-    width: 50%;
-    border: 1px solid white;
+    justify-content: center;
+    width: 73%;
+    /*margin: 0 180px;*/
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    /*padding: 0 130px;*/
+    background-color: rgba(92, 117, 146,0.9);
+    color: #223142;
+    height: 75%;
+    padding-top: 20px;
+    margin-bottom: 150px;
+
+}
+
+#div-form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 120px;
+   
+
+}
+
+#div-form2 {
+    width: 49.5%;
+}
+
+#div-form3 {
+    width: 49.5%;
+}
+
+#div-form4 {
+    margin: 0 120px;
+}
+
+label {
+    display: flex;
+    justify-content: left;
+}
+
+#submit{
+    display: flex;
+    justify-content: right;
+    background-color: #344D67;
+    color: whitesmoke;
+    margin: 0 120px;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h2 {
+    
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    margin-left: 140px;
+        
+}
+
+@media (max-width: 768px){
+    h1 {
+        position: relative;
+        right: 100px;
+
+    }
+
+    h2{
+        position: relative;
+        right: 80px
+    }
+
+    #div-form1{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div-form4 #div-form2 #div-form3 {
+        margin: 0;
+    }
+    label{
+        justify-content: center;
+        margin: 0;
+    }
+
+    #title {
+        display: block;
+        justify-content: center;
+        
+    }
 }

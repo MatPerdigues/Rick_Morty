@@ -10,17 +10,32 @@ export default function Contact () {
             <main>
 
                 <div id="div-form">
-                        <h1>Contact</h1>
-                        <h2>Leave us your information so we can contact you</h2>
+                        <div id="title">
+                            <h1>Contact</h1>
+                            <h2>Leave us your information so we can contact you</h2>
+                            
+                        </div>
                         <form>
-                            <div className="mb-3">
-                                <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+
+                            <div id="div-form1">
+                                <div className="mb-3" id="div-form2">
+                                    <label htmlFor="exampleFormControlText1" className="form-label">Name</label>
+                                    <input type="text" className="form-control" id="exampleFormControlText1"/>
+                                </div>
+                            
+                                <div className="mb-3" id="div-form3">
+                                    <label htmlFor="exampleFormControlInput1" className="form-label">Email </label>
+                                    <input type="email" className="form-control" id="exampleFormControlInput1"/>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                           
+                           <div class="mb-3" id="div-form4">
+                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
+
+                            <input type="submit" id="submit" value="Sign in" class="btn btn-secondary"/>
+                        
                         </form>
 
                     </div>
