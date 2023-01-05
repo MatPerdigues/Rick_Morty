@@ -1,16 +1,18 @@
 
 
 main {
-    display: flex;
+    display: block;
     justify-content: center;
+   
 }
 
 #filters{
     
     display: flex;
     justify-content: space-between;
-    
-    margin: 0 auto;
+    align-items: left;
+    margin-bottom: 50px;
+    width: 95%;
    
 }
 
@@ -23,8 +25,44 @@ h2 {
 
 #filters-section {
     width: 83vw;
-    margin-top: 60px;
+    margin: 60px auto 0;
     font-family: 'Raleway', sans-serif;
     color: #6ECCAF;
+    
 }
+
+#cards-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 15px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 100px;
+    width: 960px;
+}
+
+@media (max-width: 1200px){
+    #cards-section{
+        grid-template-columns: repeat(2, 1fr);
+        width: 640px;
+    }
+
+}
+
+@media (max-width: 990px){
+    #filters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px 15px;
+    }
+   
+}
+
+@media (max-width: 768px){
+    #cards-section{
+        grid-template-columns: repeat(1, 1fr);
+        width: px;
+    }
+
+}
+
 

@@ -1,6 +1,6 @@
 import './filter-btn.css'
 
-export default function FilterBtn({datoBtn},{id}) {
+export default function FilterBtn({datoBtn, id}) {
 
 
 
