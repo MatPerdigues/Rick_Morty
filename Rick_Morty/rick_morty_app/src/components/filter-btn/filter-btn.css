@@ -1,17 +1,24 @@
+
+
 #filter-btn{
+    text-align: left;
     margin-right: 20px;
     color: #6ECCAF;
     font-family: 'Raleway', sans-serif;
-    margin-right: 20px;
+    width: 100%;
+   
+    
+    
    
 }
 
 #filter-div{
-    display: flex;
-    align-items: center;
+    
     background-color: #344d67;
     border: none;
     height: 40px;
+    width: auto;
+    
    
     
     
