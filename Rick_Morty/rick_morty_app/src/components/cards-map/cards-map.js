@@ -11,6 +11,7 @@ export default function Cards () {
     let [datos, setDatos] = useState([]);
     let [infoCompleta, setInfoCompleta] = useState([]);
 
+
     const mostrarValor = (event) => {
 
         if (event.target.checked) {

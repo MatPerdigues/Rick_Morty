@@ -9,9 +9,11 @@
     color: #6ECCAF;
     height: 55px;
     width: 120px;
-    margin-right: -20px;
+    margin-right: 10px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid blue;
        
 }
 
@@ -21,6 +23,15 @@
 }
 
 #ul-listItems{
-    margin-right: 30px;
-    width: 80px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+       
 }
+
+a:link {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+  }
+

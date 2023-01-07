@@ -25,20 +25,32 @@ h2{
     font-family: 'Raleway', sans-serif;
     color: #6ECCAF;
     margin-left: 100px;
-   
-    
-    
-    
+       
 }
+
+
 
 #cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px 15px;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
     grid-auto-rows: minmax(100px, auto);
     margin-left: 100px;
     width: 960px;
-    
+}
+
+#cards1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 100px;
+    width: 960px;
+
+}
+
+.span{
+    font-weight: 800;
 }
 
 @media (max-width: 1200px){

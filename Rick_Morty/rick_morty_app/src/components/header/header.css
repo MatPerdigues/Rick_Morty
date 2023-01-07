@@ -1,5 +1,5 @@
 
-h3 {
+#title-header {
     color: #6ECCAF;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
@@ -20,7 +20,7 @@ header {
     
 }
 
-ul {
+#ul-header {
     display: flex;
     flex-direction: row;
     font-size: 200px;
@@ -28,7 +28,7 @@ ul {
 }
 
 @media(max-width: 990px){
-    ul{
+    #ul-header{
         flex-direction: column;
         margin-right: 100px;
     }

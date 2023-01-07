@@ -6,8 +6,8 @@ export default function Header () {
     return(
         <Fragment>
             <header className='d-flex'>
-                <h3>Rick & Morty</h3>
-                <ul>
+                <h3 id="title-header">Rick & Morty</h3>
+                <ul id="ul-header">
                     <ListItems dato="Home"/>
                     <ListItems dato="Characters"/>
                     <ListItems dato="Contact"/>

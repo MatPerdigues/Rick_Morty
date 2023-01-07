@@ -50,34 +50,40 @@ label {
     background-color: #344D67;
     color: whitesmoke;
     margin: 0 120px;
+    margin-bottom: 10px;
 }
 
-h1 {
+
+#h1-contact {
     display: flex;
     justify-content: left;
     margin-left: 250px;
     margin-bottom: 50px;
     font-family: 'Raleway', sans-serif;
     
+    
 }
 
-h2 {
-    
+#h2-contact {
+    width: 80%;
     display: flex;
     justify-content: left;
     margin-bottom: 30px;
     margin-left: 140px;
-        
+  
+    
 }
 
+
+
 @media (max-width: 768px){
-    h1 {
+    #h1-contact {
         position: relative;
         right: 100px;
 
     }
 
-    h2{
+    #h2-contact{
         position: relative;
         right: 80px
     }
@@ -98,7 +104,7 @@ h2 {
         margin: 0;
     }
 
-    #title {
+    #title-contact {
         display: block;
         justify-content: center;
         

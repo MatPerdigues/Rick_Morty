@@ -9,7 +9,7 @@ export default function Characters () {
         <Fragment>
             
             <Header/>
-            <main>
+            <main id='main-characters'>
                 <Cards/>
             </main>
         </Fragment>

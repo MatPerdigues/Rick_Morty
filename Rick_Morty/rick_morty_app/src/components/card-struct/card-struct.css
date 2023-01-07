@@ -1,4 +1,4 @@
-#card-div {
+.card-div {
     
     display: flex;
     justify-content: center;
@@ -13,10 +13,17 @@
 }
 
 #card-btn {
-    background-color: #6ECCAF !important;
+    background-color: #6ECCAF;
     color: #344D67;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
+    border: none; 
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: left;
+    font-size: 17px;
     
 }
 
@@ -35,3 +42,58 @@
     text-align: center;
     margin-right: 40px;
 }
+
+#div-deploy{
+   
+    width: 350px;
+    background-color: #223142;
+    
+    
+}
+
+#ul{
+    
+    height: 600px;
+    font-size: 18px;
+    height: 400px;
+    background-color: #223142;
+    
+    
+    
+}
+
+li {
+    
+    height: 335px;
+    background-color: #223142;
+   
+}
+
+#close-btn{
+    background-color: #6ECCAF;
+    opacity: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#close-div{
+    display: flex;
+    justify-content: right;
+    
+}
+#div-externo{
+    background-color: #223142;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.list-group-item {
+    background-color: #223142;
+    color: whitesmoke;
+
+}
+

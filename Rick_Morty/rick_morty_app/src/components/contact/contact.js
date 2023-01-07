@@ -9,11 +9,10 @@ export default function Contact () {
             <Header/>
             <main>
 
-                <div id="div-form">
-                        <div id="title">
-                            <h1>Contact</h1>
-                            <h2>Leave us your information so we can contact you</h2>
-                            
+                    <div id="div-form">
+                        <div id="title-contact">
+                            <h1 id="h1-contact">Contact</h1>
+                            <h2 id="h2-contact">Leave us your information so we can contact you</h2>
                         </div>
                         <form>
 
