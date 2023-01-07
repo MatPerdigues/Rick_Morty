@@ -1,8 +1,6 @@
 import './cards-section.css'
-import {Fragment, useState} from 'react'
-import {useEffect} from 'react'
+import {Fragment,} from 'react'
 import Cards from '../cards-map/cards-map'
-
 export default function CardsSection () {
 
     

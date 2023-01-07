@@ -47,6 +47,8 @@
    
     width: 350px;
     background-color: #223142;
+    margin-top: 50px;
+    margin-left: 20px;
     
     
 }
@@ -87,13 +89,27 @@ li {
     height: 500px;
     width: 400px;
     position: relative;
-    right: 20px;
+    right: 10px;
     border-radius: 5px;
 }
 
 .list-group-item {
     background-color: #223142;
     color: whitesmoke;
+    display: flex;    
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 
+#div-card-struct-total{
+  
+    display: flex;
+}
+
+.list-group-item:hover{
+    background-color: #6ECCAF;
+    color: #495057;
+    cursor: pointer;
+}

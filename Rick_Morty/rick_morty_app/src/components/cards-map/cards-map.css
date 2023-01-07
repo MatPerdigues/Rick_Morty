@@ -32,7 +32,7 @@ h2{
 
 #cards {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     grid-auto-rows: minmax(100px, auto);
     margin-left: 100px;
